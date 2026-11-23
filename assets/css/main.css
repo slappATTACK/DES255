@@ -8736,4 +8736,72 @@ body.research-page {
     .research-page #main p {
         font-size: 1em;
     }
+	
+/* COLOR PALETTE */
+
+.research-page .color-palette {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin: 35px 0;
 }
+
+.research-page .color-item {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+/* Color blocks */
+.research-page .swatch {
+    width: 110px;
+    height: 85px;
+    flex-shrink: 0;
+    border-radius: 4px;
+}
+
+/* Individual colors */
+.research-page .chartreuse {
+    background-color: #D9E600;
+}
+
+.research-page .butter {
+    background-color: #F5D94E;
+}
+
+.research-page .orange {
+    background-color: #F28C28;
+}
+
+/* Color descriptions */
+.research-page .color-info h4 {
+    font-size: 1.2em;
+    margin: 0 0 5px 0;
+    font-weight: 400;
+}
+
+.research-page .color-info p {
+    margin: 0;
+    font-size: 0.95em;
+}
+
+.research-page .color-info span {
+    font-size: 0.75em;
+    color: #888888;
+    letter-spacing: 1px;
+}
+
+/* Mobile */
+@media screen and (max-width: 736px) {
+    .research-page .swatch {
+        width: 75px;
+        height: 75px;
+    }
+
+    .research-page .color-item {
+        gap: 15px;
+    }
+}
+
+}
+
